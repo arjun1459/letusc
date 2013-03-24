@@ -3,7 +3,8 @@
 #include<string.h>
 int main()
 {
-	char a[25],b[10],i,j,m,sign=0,cnt=0;
+	char a[25],b[10];
+	int i,j,m,sign=0,cnt=0;
 	printf("Enter main string=");
 	scanf("%s",a);
 	printf("Enter substring =");
