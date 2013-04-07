@@ -3,6 +3,6 @@
 #define sizeof(x) (x *)0+1
 int main()
 {
-printf("%d\n",sizeof(double));
+printf("%p\n",sizeof(int));
 return 0;
 }
